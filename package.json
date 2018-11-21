@@ -1,0 +1,37 @@
+{
+  "name": "vue-css-loaders",
+  "main": "dist/vue-css-loaders.common.js",
+  "version": "0.3.6",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "build-bundle": "vue-cli-service build --target lib --name vue-css-loaders ./src/main.js"
+  },
+  "author": "Yevhenii Krotenko <kroegen4@gmail.com>",
+  "repository": "github:kroegen/vue-css-loaders",
+  "files": [
+    "dist/*",
+    "src/*",
+    "public/*",
+    "*.json",
+    "*.js"
+  ],
+  "dependencies": {
+    "vue": "^2.5.17"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.1.1",
+    "@vue/cli-plugin-eslint": "^3.1.5",
+    "@vue/cli-service": "^3.1.4",
+    "@vue/eslint-config-standard": "^4.0.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.8.0",
+    "eslint-plugin-vue": "^5.0.0-0",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.0.1",
+    "vue-template-compiler": "^2.5.17"
+  },
+  "description": "A simple library with few css loaders for vue.js. Supports IE11! The loaders had been taken from https://loading.io/css",
+  "license": "ISC"
+}
