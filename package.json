@@ -1,7 +1,7 @@
 {
   "name": "vue-css-loaders",
   "main": "dist/vue-css-loaders.common.js",
-  "version": "0.3.6",
+  "version": "0.3.7",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
